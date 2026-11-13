@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+  <title>Book Your Experience - Adventure Escape South Africa</title>
+</head>
+<body id="top">
+<header>
+  <a href="index.html"><img src="images/logo.png" alt="Adventure Escape South Africa logo" width="40" height="40"> <strong>ADVENTURE ESCAPE SOUTH AFRICA</strong></a>
+  <nav>
+    <ul>
+      <li><a href="rooms.html">Rooms</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="booking.html"><button type="button">Book Now</button></a>
+</header>
+<hr>
+<main>
+  <h1>Book Your Experience</h1>
+  <p>Choose your adventure, date and time. We'll keep your team's details together.</p>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>1. Select Adventure Room</legend>
+      <label for="room">Room</label>
+      <select id="room" name="room">
+        <option>The Lost Temple</option>
+        <option>Haunted Mansion</option>
+        <option>Prison Break</option>
+        <option>Space Station</option>
+        <option>Pirate Cove</option>
+        <option>Zombie Lab</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Select Date</legend>
+      <p><strong>&lsaquo; March 2026 &rsaquo;</strong></p>
+      <table border="1">
+        <thead>
+          <tr><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr>
+        </thead>
+        <tbody>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+          <tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+          <tr><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
+          <tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
+          <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr>
+          <tr><td>30</td><td>31</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+      <p>
+        <label for="date">Selected date:</label>
+        <input type="date" id="date" name="date" value="2026-03-15">
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Select Time Slot</legend>
+      <p><input type="radio" id="t1" name="time" value="09:00"><label for="t1">09:00 AM</label></p>
+      <p><input type="radio" id="t2" name="time" value="10:30"><label for="t2">10:30 AM</label></p>
+      <p><input type="radio" id="t3" name="time" value="12:00"><label for="t3">12:00 PM</label></p>
+      <p><input type="radio" id="t4" name="time" value="01:30"><label for="t4">01:30 PM</label></p>
+      <p><input type="radio" id="t5" name="time" value="03:00" checked><label for="t5">03:00 PM</label></p>
+      <p><input type="radio" id="t6" name="time" value="04:30"><label for="t6">04:30 PM</label></p>
+      <p><input type="radio" id="t7" name="time" value="06:00"><label for="t7">06:00 PM</label></p>
+      <p><input type="radio" id="t8" name="time" value="07:30"><label for="t8">07:30 PM</label></p>
+      <p><input type="radio" id="t9" name="time" value="21:00"><label for="t9">09:00 PM</label></p>
+    </fieldset>
+
+    <aside>
+      <h2>Booking Summary</h2>
+      <p>ROOM</p>
+      <p><strong>The Lost Temple</strong></p>
+      <p>Sunday, March 15 &bull; 03:00 PM</p>
+      <hr>
+      <p>
+        <label for="players">PLAYERS</label>
+        <input type="number" id="players" name="players" min="2" max="6" value="4">
+      </p>
+      <p>R350 per player &times; 4 &mdash; R1,400</p>
+      <p>Booking Fee &mdash; R0</p>
+      <p>
+        <label for="promo">PROMO CODE</label>
+        <input type="text" id="promo" name="promo" placeholder="Enter code">
+        <button type="button">Apply</button>
+      </p>
+      <hr>
+      <p><strong>Total Price: R1,400</strong></p>
+      <button type="submit">Confirm Booking</button>
+    </aside>
+  </form>
+</main>
+<hr>
+<footer>
+  <p><img src="images/logo.png" alt="Logo" width="40" height="40"> <strong>ADVENTURE ESCAPE SOUTH AFRICA</strong></p>
+  <p>Unlock the Mystery. Escape-room adventures in South Africa.</p>
+  <h4>Booking</h4>
+  <ul><li><a href="room-detail.html">The Lost Temple</a></li><li><a href="rooms.html">Underground Lab</a></li><li><a href="rooms.html">Prison Break</a></li><li><a href="rooms.html">Haunted Manor</a></li></ul>
+  <h4>Company</h4>
+  <ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Careers</a></li><li><a href="#">Press Kit</a></li></ul>
+  <h4>Legal</h4>
+  <ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Refund Policy</a></li></ul>
+  <p>&copy; 2026 ADVENTURE ESCAPE SOUTH AFRICA. All rights reserved.</p>
+  <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+</footer>
+</body>
+</html>
